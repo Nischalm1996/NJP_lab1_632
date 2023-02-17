@@ -1,0 +1,7 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/dangj/Desktop/18632/Lab/RNG/RNG.sv
+source_file = 1, C:/Users/dangj/Desktop/18632/Lab/RNG/Waveform.vwf
+source_file = 1, C:/Users/dangj/Desktop/18632/Lab/RNG/db/RNG.cbx.xml
+design_name = RNG
+instance = comp, \f~output , f~output, RNG, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, RNG, 1

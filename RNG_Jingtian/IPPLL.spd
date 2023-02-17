@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="IPPLL_sim/IPPLL.vo" type="VERILOG" />
+ <topLevel name="IPPLL" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

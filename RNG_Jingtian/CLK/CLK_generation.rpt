@@ -1,0 +1,35 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\dangj\Desktop\18632\Lab\RNG\CLK.qsys --block-symbol-file --output-directory=C:\Users\dangj\Desktop\18632\Lab\RNG\CLK --family="Cyclone V" --part=5CEBA4F23C7
+Progress: Loading RNG/CLK.qsys
+Progress: Reading input file
+Progress: Adding altclkctrl_0 [altclkctrl 20.1]
+Progress: Parameterizing module altclkctrl_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: CLK.altclkctrl_0: Targeting device family: Cyclone V.
+: CLK.altclkctrl_0: Regional clock network allows a clock signal to reach a quadrant of the chip. Only one clock input is accepted.
+: CLK.altclkctrl_0: The register mode of port 'ena' is unavailable while 'ena' port not added. 
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\dangj\Desktop\18632\Lab\RNG\CLK.qsys --synthesis=VERILOG --output-directory=C:\Users\dangj\Desktop\18632\Lab\RNG\CLK\synthesis --family="Cyclone V" --part=5CEBA4F23C7
+Progress: Loading RNG/CLK.qsys
+Progress: Reading input file
+Progress: Adding altclkctrl_0 [altclkctrl 20.1]
+Progress: Parameterizing module altclkctrl_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+: CLK.altclkctrl_0: Targeting device family: Cyclone V.
+: CLK.altclkctrl_0: Regional clock network allows a clock signal to reach a quadrant of the chip. Only one clock input is accepted.
+: CLK.altclkctrl_0: The register mode of port 'ena' is unavailable while 'ena' port not added. 
+Info: CLK: Generating CLK "CLK" for QUARTUS_SYNTH
+Info: altclkctrl_0: Generating top-level entity CLK_altclkctrl_0.
+Info: altclkctrl_0: "CLK" instantiated altclkctrl "altclkctrl_0"
+Info: CLK: Done "CLK" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

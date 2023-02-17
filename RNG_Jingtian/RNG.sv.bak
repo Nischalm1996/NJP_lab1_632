@@ -1,0 +1,4 @@
+module RNG(output logic f);
+	wire w;
+	not(w, w);
+endmodule : RNG
