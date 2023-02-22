@@ -1,4 +1,0 @@
-module clock_gen(	input enable,
-						output logic clk);
-
-endmodule
